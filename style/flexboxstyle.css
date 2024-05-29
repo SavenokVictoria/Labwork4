@@ -1,0 +1,88 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.calc {
+   width: 400px;
+   /* height: 500px; */
+   background-color: rgb(67, 63, 63);
+   display: flex;
+   flex-wrap: wrap; 
+   box-sizing: border-box;
+}
+
+.menu {
+   width: 100%;
+   height: 40px;
+   display: flex;
+}
+
+.redCirc {
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   margin: 7px;
+   background-color: rgb(230, 7, 7);
+}
+
+.greenCirc {
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   margin: 7px;
+   background-color: rgb(6, 88, 3);
+}
+
+.yellCirc {
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   margin: 7px;
+   background-color: rgb(240, 185, 4);
+}
+
+.btn {
+   margin: 1px;
+   width: 98px;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(
+       180deg,
+       rgb(88, 88, 88),
+       rgb(52, 52, 51),
+       rgb(88, 88, 88)
+   );
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.yell {
+   background: linear-gradient(
+       180deg,
+       rgb(88, 88, 88),
+       rgb(197, 130, 5),
+       rgb(88, 88, 88)
+   );
+}
+
+.result {
+   margin: 5px;
+   width: 388px;
+   height: 60px;
+   background-color: rgb(83, 82, 82);
+   text-align: right;
+   font-size: 50px;
+   font-weight: bold;
+   padding: 5px;
+   color: white;
+   box-sizing: border-box;
+}
+
+.null {
+   width: 198px;
+}
